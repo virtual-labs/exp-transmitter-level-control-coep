@@ -139,25 +139,25 @@ h6 {
 #LC_FaultScroll {
 	padding-bottom: 100px;
 	overflow-y: scroll;
-	height: 600px;
+	height: auto;
 }
 
 #TC_FaultScroll {
 	padding-bottom: 100px;
 	overflow-y: scroll;
-	height: 600px;
+	height: auto;
 }
 
 #PC_FaultScroll {
 	padding-bottom: 100px;
 	overflow-y: scroll;
-	height: 600px;
+	height: auto;
 }
 
 #FC_FaultScroll {
 	padding-bottom: 100px;
 	overflow-y: scroll;
-	height: 600px;
+	height: auto;
 }
 
 p {
@@ -405,14 +405,14 @@ p {
 #LC_characterisationDIv {
 	/*width: 100%; */
 	overflow: scroll;
-	height: 800px;
+	height: auto;
 	padding: 10px 10px 150px 10px;
 }
 
 #TestNextDiv {
 	/*width: 100%; */
 	overflow: scroll;
-	height: 800px;
+	height: auto;
 	padding: 10px 10px 150px 10px;
 }
 
@@ -581,7 +581,7 @@ button.dt-button, div.dt-button, a.dt-button {
 #TC_characterisationDIv {
 	/*width: 100%; */
 	overflow: scroll;
-	height: 800px;
+	height: auto;
 	padding: 10px 10px 150px 10px;
 }
 
@@ -670,7 +670,7 @@ button.dt-button, div.dt-button, a.dt-button {
 
 #PC_characterisationDIv { /*width: 100%; */
 	overflow: scroll;
-	height: 800px;
+	height: auto;
 	padding: 10px 10px 150px 10px;
 }
 
@@ -771,7 +771,7 @@ button.dt-button, div.dt-button, a.dt-button {
 #FC_characterisationDIv {
 	/*width: 100%; */
 	overflow: scroll;
-	height: 800px;
+	height: auto;
 	padding: 10px 10px 150px 10px;
 }
 

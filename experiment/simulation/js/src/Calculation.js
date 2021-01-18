@@ -71,37 +71,7 @@ $(document).ready(function() {
 					}
 				}); 
 				
-				$('#next').on(
-				'click', function() {
-					var appId = $( "select#levels" ).val();
-					
-					if(appId == "1"){
-						
-						$("#next").hide();
-						showLC_Questions(appId);
-						$("#levels").prop("disabled", true);
-					}
-					if(appId == "2"){
-						
-						$("#next").hide();
-						showTC_Questions(appId);
-						$("#levels").prop("disabled", true);
-					}
-					if(appId == "3"){
-						
-						$("#next").hide();
-						showPC_Questions(appId);
-						$("#levels").prop("disabled", true);
-					}
-					if(appId == "4"){
-						
-						$("#next").hide();
-						showFC_Questions(appId);
-						$("#levels").prop("disabled", true);
-					}
-							
-				});
-			
+				
 				
 	
 	

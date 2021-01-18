@@ -10,6 +10,7 @@ showDiscription = function(number) {
 		LC_discription += '<div id = "discriptionDiv">'
 				+ '<h4 align = "center">Level Control Theory</h4>'
 				+ '<div id="TestDivTheory"><p>A level (H) in tank (T100) containing liquid is to be controlled by adjusting the OUT FLOW OR IN FLOW depending on the control strategy prescribed by the control expert.</p><p> The level in the tank is measured using a level sensor (LE 100). The output of the sensor is converted into instrument standard viz. 4~20 mA/HART/FF using a level transmitter (LT 100).</p><p> The output of the transmitter will be based on the selection of the configuration of the transmitter i.e. it can be 4~20 mA, HART or FF signal.</p><p> The output of the transmitter is connected to a PID controller (LIC 100/LIC 200).</p><p> As per the output of the controller the I/P converter (LY 100/LY 200) will send corresponding pneumatic signal to the control valve (LCV 100/LCV 200).</p><p> It is pertinent to note that the accuracy of the controller will be dependant of the accuracy of the sensing and transmitting signal. The configuration and calibration of the transmitter becomes essential to achieve the best results. </p><p>Hence in this experiment you are required to select/configure/calibrate level transmitter. </p></div>'
+				+'<button id = "next" class="AppField">Start Test</button>'
 				+ '</div>';
 
 		
@@ -72,5 +73,35 @@ showDiscription = function(number) {
 
 		$("#TestDiv").html('');
 	}
-
+	$('#next').on(
+			'click', function() {
+				var appId = $( "select#levels" ).val();
+				
+				if(appId == "1"){
+					
+					$("#next").hide();
+					showLC_Questions(appId);
+					$("#levels").prop("disabled", true);
+				}
+				if(appId == "2"){
+					
+					$("#next").hide();
+					showTC_Questions(appId);
+					$("#levels").prop("disabled", true);
+				}
+				if(appId == "3"){
+					
+					$("#next").hide();
+					showPC_Questions(appId);
+					$("#levels").prop("disabled", true);
+				}
+				if(appId == "4"){
+					
+					$("#next").hide();
+					showFC_Questions(appId);
+					$("#levels").prop("disabled", true);
+				}
+						
+			});
+		
 }
