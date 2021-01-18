@@ -54,10 +54,10 @@ $(function () {
 				+'<div data-shape="FT_FFTrsmtr" class="palette_node_element draw2d_droppable" title="FT 100 FF Transmitter"><img src="images/img/fft_FT100.png"></div>'
 				
 				//I2P symbols
-				+'<div data-shape="LY_100" class="palette_node_element draw2d_droppable" title="LY 100"><img src="images/img/I2p_LY100.png"></div>'
-				+'<div data-shape="TY_100" class="palette_node_element draw2d_droppable" title="TY 100"><img src="images/img/I2p_TY100.png"></div>'
-				+'<div data-shape="PY_100" class="palette_node_element draw2d_droppable" title="PY 100"><img src="images/img/I2p_PY100.png"></div>'
-				+'<div data-shape="FY_100" class="palette_node_element draw2d_droppable" title="FY 100"><img src="images/img/I2p_FY100.png"></div>'
+				+'<div data-shape="LY_100" class="palette_node_element draw2d_droppable" title="LY 100"><img src="images/img/I2P_LY100.png"></div>'
+				+'<div data-shape="TY_100" class="palette_node_element draw2d_droppable" title="TY 100"><img src="images/img/I2P_TY100.png"></div>'
+				+'<div data-shape="PY_100" class="palette_node_element draw2d_droppable" title="PY 100"><img src="images/img/I2P_PY100.png"></div>'
+				+'<div data-shape="FY_100" class="palette_node_element draw2d_droppable" title="FY 100"><img src="images/img/I2P_FY100.png"></div>'
 				
 				  // Pneumatic Transmitter  Symbols
 				+'<div data-shape="PT_LT_100" class="palette_node_element draw2d_droppable" title="Pneumatic Transmitter LT 100"><img src="images/img/PT_LT100.png"></div>'
