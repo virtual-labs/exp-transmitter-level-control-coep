@@ -22,10 +22,7 @@ header {
     background: rgb(125,176,169);
     background: linear-gradient(90deg, rgba(125,176,169,1) 0%, rgba(78,109,114,1) 31%, rgba(33,44,62,1) 100%);
 }
- svg {margin-top:0px;
-           margin-bottom:0px;
-           margin-right:0px;
-           margin-left:0px;top: -100;}
+
 footer {
 	border: 1px solid #666;
 	height: 30px;
@@ -1175,8 +1172,7 @@ mso-displayed-thousand-separator
 		font-size: 19px;
 	}
 }
-@media screen and (min-width: 768px) and (max-width: 1000px) {
-	{ svg {top: -500;}}
+
 @media screen and (min-width: 469px) and (max-width: 768px) {
 	#main-div {
 		width: 100%;
@@ -1194,7 +1190,7 @@ mso-displayed-thousand-separator
 	header h2 {
 		font-size: 19px;
 	}
-	 svg {top: -300;}
+
 }
 
 /*question css end*/

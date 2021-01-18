@@ -29,6 +29,7 @@ $(document).ready(function() {
 		$('select#levels').on(
 				'change',
 				function() {
+					$("#StartMain").css("display","inline");
 					if (this.value == "1") {
 						
 					    $( "#canvas" ).empty();
