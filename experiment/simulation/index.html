@@ -56,12 +56,7 @@
     .levelsApp select{font-size: 15px;
     font-weight: bold;}
 	.AppField{
-	padding:10px 20px;
-	background:#999;
-	color:#fff;
-	position:fixed;
-	bottom:10px ;
-	right:10px;
+	float:right;
 	}
 .fa-plus-square {
 	font-size: 46px;
@@ -446,6 +441,7 @@ $(window).load(function () {
 				  			</ol></i>
 				  			</div>
 				  </div>
+				  <div id="StartMain" style="display:none;">
 		   <div class="col-md-6 col-sm-12" id="canvasMainDiv">
 				<div class="col-md-12 col-sm-12">
 				
@@ -461,7 +457,7 @@ $(window).load(function () {
 				</div>
 				
 				</div>
-				
+				</div>
 		   
 				</div>
 				
@@ -546,7 +542,7 @@ $(window).load(function () {
 					</div>
 					<div id="Linearity4direct" style="display: none">
 						<p>Linearity formula</p>
-						<p>Linearity formula</p>
+						
 						<div>x : List of expected reading <br> y : List of reading obtained <br> N : No. of readings</div>
 						     <div class="formu">A = Sqrt((sum(x))<sup>2</sup>/N - sum(x<sup>2</sup>))</div>
 						     <div class="formu">B = Sqrt((sum(y))<sup>2</sup>/N - sum(y<sup>2</sup>))</div> 
