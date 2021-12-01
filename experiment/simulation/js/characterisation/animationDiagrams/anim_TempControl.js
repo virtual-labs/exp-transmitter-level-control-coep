@@ -2,12 +2,27 @@
 
 
 function anim_TempControl(lowerSpanLevel,higherSpanLevel){	
-	paper = new Raphael(document.getElementById('canvas'), '100%', 700);
+var w = 900;
+    var h = 500;
+
+var width = $(window).width();
+
+  if ($(window).width() < 500) {
+	    width = $(this).width();
+	    paper = new Raphael(document.getElementById('canvas'), '100%', 500);
+	paper.setViewBox(0,0,w,h,true);
+	paper.setSize('100%', 500);
+  }else
+  {
+      paper = new Raphael(document.getElementById('canvas'), '100%', 800);
+	paper.setViewBox(0,0,w,h,true);
+	paper.setSize('100%', 800);
+  }
     //x = 310;
 	//y = 160;
 	
 	x = 200;
-	y = 300;
+	y = 200;
 
 	
 	 var TL_tank1 = TL_Tank1 (x, y);
